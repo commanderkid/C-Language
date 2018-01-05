@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+    //system("chcp 1251>null");
+    int number;
+    printf("Введите целое число: ");
+    scanf("%d", &number);
+    if(number % 2 == 0){
+        printf("Четное число!\n");
+    }
+    else{
+        printf("Нечетное число!\n");
+    }
+    //system("pause>null");
+    return 0;
+}
