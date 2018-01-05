@@ -1,4 +1,19 @@
+//Thernary operator
+
 #include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+    int number;
+    //system("chcp 1251>0");
+    printf("Input number: ");
+    scanf("%d", &number);
+    printf(number%2 ? "odd\n" : "even\n");
+    //system("pause>0");
+}
+
+
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main(void){
@@ -17,7 +32,6 @@ int main(void){
 }
 
 
-/*
 #include <stdio.h>
 #include <stdlib.h>
 
