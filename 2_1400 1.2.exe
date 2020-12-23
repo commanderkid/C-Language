@@ -1,0 +1,17 @@
+/*1.2.	 Вывести на одной строке числа 47, 52 и  150 с двумя пробелами между ними. Текст '47 52 150' не использовать.*/
+#define fs 47
+#define ft 52
+#define hfz 150
+
+#include <stdio.h>
+
+void main(void) {
+    int start = 0;
+    int finish = 3;
+    int arr[3] = {fs, ft, hfz};
+    while(start < finish) {
+        printf("%d", arr[start]);
+        printf("  ", arr[start]);
+        start++;
+    }
+}
